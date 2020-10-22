@@ -44,5 +44,9 @@
     <dimen name="normal_margin">12dp</dimen>
     <dimen name="padding_small">5dp</dimen>
     <dimen name="top_art_height">220dp</dimen>
-    <dimen name="margin_large">30dp</dimen>
+    <dimen name="margin_l">30dp</dimen>
+    <dimen name="margin_s">10dp</dimen>
+    <dimen name="margin_m">15dp</dimen>
+    <dimen name="margin_xs">5dp</dimen>
+    <dimen name="margin_xxs">1dp</dimen>
 </resources>

@@ -21,8 +21,8 @@ import kotlinx.android.synthetic.main.fragment_main_activity.view.*
 
 const val MAIN_ACTIVITY_FRAGMENT = "MainActivityFragment"
 
-class MainActivityFragment : Fragment(),ItemClickListener {
-    var audioList:ArrayList<AudioItem> = arrayListOf()
+class MainActivityFragment : Fragment(), ItemClickListener {
+    var audioList: ArrayList<AudioItem> = arrayListOf()
     private val mainActivityViewModel by viewModels<MainActivityViewModel>()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -30,9 +30,23 @@ class MainActivityFragment : Fragment(),ItemClickListener {
         setupViewModels()
         /**fetch data*/
         mainActivityViewModel.getAllAudios() { result ->
-            Log.d(MAIN_ACTIVITY_FRAGMENT, "all songs => ${result}")
-            audioList = result as ArrayList<AudioItem>
-            val adapter = AudioAdapter(audioList, requireActivity(),this)
+//            Log.d(MAIN_ACTIVITY_FRAGMENT, "all songs => ${result}")
+            val albumName = arguments?.getString("fragmentName")
+
+            /***/
+            audioList = if (albumName == "All Songs") {
+
+                result as ArrayList<AudioItem>
+            } else {
+                result.filter {
+                    it.category.toString() == albumName
+                } as ArrayList<AudioItem>
+
+            }
+            /***/
+            Log.d("MainActivityFragment","${audioList.size}+${albumName}")
+
+            val adapter = AudioAdapter(audioList, requireActivity(), this)
             // RecyclerView
             view.rv_audio_list.adapter = adapter
             view.rv_audio_list.layoutManager = LinearLayoutManager(requireActivity())
@@ -52,7 +66,7 @@ class MainActivityFragment : Fragment(),ItemClickListener {
         mainActivityViewModel.audioRepository = AudioRepository(service)
     }
 
-    override fun onItemClickListener(audioItem: AudioItem,position: Int) {
+    override fun onItemClickListener(audioItem: AudioItem, position: Int) {
 //        Toast.makeText(requireContext(), audioItem.title +"+++" +position,Toast.LENGTH_SHORT).show()
         val intent = Intent(activity, DetailActivity::class.java)
         intent.putExtra("list", audioList)

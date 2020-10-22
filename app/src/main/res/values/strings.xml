@@ -2,11 +2,19 @@
     <string name="app_name">ahtBibleAudio002</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <!--    Phongnt-->
+    <!--  Extra  -->
+
     <string name="previous">Previous</string>
     <string name="playpause">Play / Pause</string>
     <string name="next">Next</string>
     <string name="title_download">Download</string>
     <string name="alarm">Alarm</string>
     <string name="empty_sub">Not found subtitle</string>
+
+    <!-- End Extra  -->
+    <string name="your_notes">Your notes:</string>
+    <string name="your_notes_content">Your notes content:</string>
+    <string name="all_public_notes">All public notes:</string>
+    <string name="no_notes_yet">No notes yet.</string>
+
 </resources>

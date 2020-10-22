@@ -18,6 +18,8 @@ import com.yan.ahtbibleaudio002.externalSource.model.Events
 import com.yan.ahtbibleaudio002.externalSource.services.MusicService
 import com.yan.ahtbibleaudio002.models.AudioItem
 import com.yan.ahtbibleaudio002.viewmodels.DetailActivityViewModel
+import kotlinx.android.synthetic.main.activity_detail.*
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.layout_media_controller.*
 import java.util.ArrayList
 
@@ -30,18 +32,24 @@ class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
+        // my_child_toolbar is defined in the layout file
+        setSupportActionBar(tool_bar)
+        // Get a support ActionBar corresponding to this toolbar and enable the Up button
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        pendingIntent = PendingIntent.getBroadcast(applicationContext, 0,
-            Intent().setAction("STOP_TEST_SERVICE"), PendingIntent.FLAG_UPDATE_CURRENT)
+        pendingIntent = PendingIntent.getBroadcast(
+            applicationContext, 0,
+            Intent().setAction("STOP_TEST_SERVICE"), PendingIntent.FLAG_UPDATE_CURRENT
+        )
         var listMedia = ArrayList<AudioItem>()
         listMedia = intent.getSerializableExtra("list") as ArrayList<AudioItem>
         val audioItem = intent.getSerializableExtra("detail") as AudioItem
-        val position = intent.getIntExtra(PLAYPOS,-1)
+        val position = intent.getIntExtra(PLAYPOS, -1)
         val p = listMedia.indexOf(audioItem)
 
-        isExistMedia = intent.getBooleanExtra("isExistMedia",false)
+        isExistMedia = intent.getBooleanExtra("isExistMedia", false)
 
-        Log.d("DetailActivity","${p} ${position}")
+        Log.d("DetailActivity", "${p} ${position}")
 
         model = ViewModelProvider(this).get(DetailActivityViewModel::class.java)
         model.loadMediaItems(listMedia)
@@ -60,7 +68,6 @@ class DetailActivity : AppCompatActivity() {
                 bus.post(Events.EmptyObject())
 
             }, 300)
-
         }
         /***/
         //
@@ -74,10 +81,10 @@ class DetailActivity : AppCompatActivity() {
         repeat_btn.setOnClickListener { toggleSongRepetition() }
         song_progress_current.setOnClickListener { sendIntent(SKIP_BACKWARD) }
         song_progress_max.setOnClickListener { sendIntent(SKIP_FORWARD) }
-
         showStatusPlayer();
         /***/
     }
+
     /**Init*/
     private fun initServicePlayer() {
 
@@ -96,7 +103,12 @@ class DetailActivity : AppCompatActivity() {
         val isShuffleEnabled = !config.isShuffleEnabled
         config.isShuffleEnabled = isShuffleEnabled
         if (isShuffleEnabled)
-            shuffle_btn.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_shuffle_blue))
+            shuffle_btn.setImageDrawable(
+                ContextCompat.getDrawable(
+                    this,
+                    R.drawable.ic_shuffle_blue
+                )
+            )
         else
             shuffle_btn.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_shuffle))
 
@@ -105,7 +117,12 @@ class DetailActivity : AppCompatActivity() {
     private fun toggleSongRepetition() {
         val repeatSong = !config.repeatSong
         config.repeatSong = repeatSong
-        if (repeatSong) repeat_btn.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_repeat_blue))
+        if (repeatSong) repeat_btn.setImageDrawable(
+            ContextCompat.getDrawable(
+                this,
+                R.drawable.ic_repeat_blue
+            )
+        )
         else repeat_btn.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_repeat))
 
     }
@@ -113,12 +130,22 @@ class DetailActivity : AppCompatActivity() {
     private fun showStatusPlayer() {
         val isShuffleEnabled = config.isShuffleEnabled
         if (isShuffleEnabled)
-            shuffle_btn.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_shuffle_blue))
+            shuffle_btn.setImageDrawable(
+                ContextCompat.getDrawable(
+                    this,
+                    R.drawable.ic_shuffle_blue
+                )
+            )
         else
             shuffle_btn.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_shuffle))
 
         val repeatSong = config.repeatSong
-        if (repeatSong) repeat_btn.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_repeat_blue))
+        if (repeatSong) repeat_btn.setImageDrawable(
+            ContextCompat.getDrawable(
+                this,
+                R.drawable.ic_repeat_blue
+            )
+        )
         else repeat_btn.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_repeat))
 
 
@@ -129,7 +156,7 @@ class DetailActivity : AppCompatActivity() {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
                 val duration = song_progressbar.max.getFormattedDuration()
                 val formattedProgress = progress.getFormattedDuration()
-                Log.d("Seekbar","${duration}+${formattedProgress}")
+                Log.d("Seekbar", "${duration}+${formattedProgress}")
                 song_progress_current.text = formattedProgress
                 song_progress_max.text = duration
             }
@@ -146,6 +173,7 @@ class DetailActivity : AppCompatActivity() {
             }
         })
     }
+
     /***/
 
     override fun onDestroy() {
