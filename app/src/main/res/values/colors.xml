@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#391800</color>
+    <color name="colorPrimaryDark">#391800</color>
+    <color name="colorPrimaryLight">#ebe7e5</color>
+    <color name="colorAccent">#c3b9b2</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="mediaListBackground">#F1F1F1</color>
+    <color name="mediaControlColor">#f8f8f8</color>
+    <color name="nowPlayingBackground">#eff0f0</color>
+    <color name="nowPlayingWhiteBackground">#fdfdfd</color>
+    <color name="menu_icon_tint">#ffffff</color>
+    <color name="pressed_item_foreground">#08000000</color>
+    <color name="bg_blur">#80840255</color>
+    <color name="white">#ffffff</color>
+    <color name="top_bg">#0F0F0F</color>
+    <color name="bottom_bg">#3F3030</color>
+    <color name="player_color">#1A1A1C</color>
+</resources>

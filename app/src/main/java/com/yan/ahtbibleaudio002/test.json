@@ -1,0 +1,256 @@
+
+{
+  "success": true,
+  "data": {
+    "pagination": {
+      "total": 100,
+      "lastPage": 10,
+      "perPage": 10,
+      "currentPage": "6",
+      "from": 50,
+      "to": 60
+    },
+    "audios": [
+      {
+        "id": 51,
+        "category": 0,
+        "title": "Veniam soluta aut molestias omnis ut consequa",
+        "description": "Expedita aut cum dolore eligendi. Omnis sit numquam velit dolores. Odio pariatur eligendi est consectetur officiis sunt alias. Natus qui voluptatibus quo ea.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-1c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/PxymVMcW/aa.jpg"
+      },
+      {
+        "id": 52,
+        "category": 1,
+        "title": "Doloremque earum blanditiis nam aut pariatur ",
+        "description": "Reprehenderit et sequi repudiandae placeat voluptatem omnis qui. Voluptatem quia voluptas laudantium esse. Quam numquam asperiores error est et quo.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/Y0SQ5WKJ/ab.jpg"
+      },
+      {
+        "id": 53,
+        "category": 0,
+        "title": "Dolor rerum corporis aspernatur illum.",
+        "description": "Impedit dolor ratione eos aut est nihil odit. Id voluptatibus et dicta dolores voluptatem repellat ut. Quis exercitationem sint non corrupti quis.",
+        "file_url": "https://dl.espressif.com/dl/audio/gs-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/fTJx5mvd/ad.jpg"
+      },
+      {
+        "id": 54,
+        "category": 0,
+        "title": "Minus sit magni ut tempore tenetur rerum odio",
+        "description": "Ab quo autem nam culpa. Et laboriosam sunt vel non dolorem a. Dolor est et repellendus doloribus sequi id. Qui laudantium autem dolor doloribus et voluptate nihil quis.",
+        "file_url": "https://dl.espressif.com/dl/audio/gs-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/MKN1LHsF/ae.jpg"
+      },
+      {
+        "id": 55,
+        "category": 1,
+        "title": "Iste sed non magni laudantium voluptatum volu",
+        "description": "Laborum ut perferendis temporibus animi eos fugit. Sint magnam omnis voluptas aperiam assumenda est id animi. Quidem non at quos voluptate. Labore voluptatum aut est eum.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/Pf6Wm21h/af.jpg"
+      },
+      {
+        "id": 56,
+        "category": 0,
+        "title": "Sed doloribus sunt enim neque.",
+        "description": "Officia itaque consequatur laudantium dolor suscipit aspernatur. Dolores ea iure aut possimus consequuntur aspernatur unde.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/Y0SQ5WKJ/ab.jpg"
+      },
+      {
+        "id": 57,
+        "category": 0,
+        "title": "Debitis vel minima debitis distinctio sed ita",
+        "description": "Dolores tenetur non hic modi. Quod rem tempore enim sint in. Est quia possimus omnis incidunt accusantium. Quia quaerat repellat sit enim vel ullam omnis.",
+        "file_url": "https://dl.espressif.com/dl/audio/gs-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/MKN1LHsF/ae.jpg"
+      },
+      {
+        "id": 58,
+        "category": 0,
+        "title": "Laborum suscipit possimus eveniet nulla.",
+        "description": "Doloremque et reiciendis temporibus ea. Ex corrupti ut maxime ea tempore. Eligendi qui neque laudantium enim nam aperiam corrupti sit. Qui eos impedit voluptatum.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/Pf6Wm21h/af.jpg"
+      },
+      {
+        "id": 59,
+        "category": 0,
+        "title": "Officia optio numquam cupiditate.",
+        "description": "Explicabo assumenda earum sunt saepe autem alias omnis iure. Fuga animi a est recusandae doloribus voluptatibus consequatur qui. Aut sint accusantium dolorem. Dicta officiis voluptatum repellendus neque earum nihil.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-1c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/PxymVMcW/aa.jpg"
+      },
+      {
+        "id": 60,
+        "category": 0,
+        "title": "Quibusdam reiciendis qui reiciendis atque quo",
+        "description": "Rem accusantium voluptatem ullam nihil consequatur perspiciatis. Omnis qui quod distinctio necessitatibus vero voluptates sed.",
+        "file_url": "https://dl.espressif.com/dl/audio/gs-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/MKN1LHsF/ae.jpg"
+      },
+      {
+        "id": 61,
+        "category": 0,
+        "title": "Veniam soluta aut molestias omnis ut consequa",
+        "description": "Expedita aut cum dolore eligendi. Omnis sit numquam velit dolores. Odio pariatur eligendi est consectetur officiis sunt alias. Natus qui voluptatibus quo ea.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-1c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/PxymVMcW/aa.jpg"
+      },
+      {
+        "id": 62,
+        "category": 1,
+        "title": "Doloremque earum blanditiis nam aut pariatur ",
+        "description": "Reprehenderit et sequi repudiandae placeat voluptatem omnis qui. Voluptatem quia voluptas laudantium esse. Quam numquam asperiores error est et quo.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/Y0SQ5WKJ/ab.jpg"
+      },
+      {
+        "id": 63,
+        "category": 0,
+        "title": "Dolor rerum corporis aspernatur illum.",
+        "description": "Impedit dolor ratione eos aut est nihil odit. Id voluptatibus et dicta dolores voluptatem repellat ut. Quis exercitationem sint non corrupti quis.",
+        "file_url": "https://dl.espressif.com/dl/audio/gs-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/fTJx5mvd/ad.jpg"
+      },
+      {
+        "id": 64,
+        "category": 0,
+        "title": "Minus sit magni ut tempore tenetur rerum odio",
+        "description": "Ab quo autem nam culpa. Et laboriosam sunt vel non dolorem a. Dolor est et repellendus doloribus sequi id. Qui laudantium autem dolor doloribus et voluptate nihil quis.",
+        "file_url": "https://dl.espressif.com/dl/audio/gs-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/MKN1LHsF/ae.jpg"
+      },
+      {
+        "id": 65,
+        "category": 1,
+        "title": "Iste sed non magni laudantium voluptatum volu",
+        "description": "Laborum ut perferendis temporibus animi eos fugit. Sint magnam omnis voluptas aperiam assumenda est id animi. Quidem non at quos voluptate. Labore voluptatum aut est eum.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/Pf6Wm21h/af.jpg"
+      },
+      {
+        "id": 66,
+        "category": 0,
+        "title": "Sed doloribus sunt enim neque.",
+        "description": "Officia itaque consequatur laudantium dolor suscipit aspernatur. Dolores ea iure aut possimus consequuntur aspernatur unde.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/Y0SQ5WKJ/ab.jpg"
+      },
+      {
+        "id": 67,
+        "category": 0,
+        "title": "Debitis vel minima debitis distinctio sed ita",
+        "description": "Dolores tenetur non hic modi. Quod rem tempore enim sint in. Est quia possimus omnis incidunt accusantium. Quia quaerat repellat sit enim vel ullam omnis.",
+        "file_url": "https://dl.espressif.com/dl/audio/gs-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/MKN1LHsF/ae.jpg"
+      },
+      {
+        "id": 68,
+        "category": 0,
+        "title": "Laborum suscipit possimus eveniet nulla.",
+        "description": "Doloremque et reiciendis temporibus ea. Ex corrupti ut maxime ea tempore. Eligendi qui neque laudantium enim nam aperiam corrupti sit. Qui eos impedit voluptatum.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/Pf6Wm21h/af.jpg"
+      },
+      {
+        "id": 69,
+        "category": 0,
+        "title": "Officia optio numquam cupiditate.",
+        "description": "Explicabo assumenda earum sunt saepe autem alias omnis iure. Fuga animi a est recusandae doloribus voluptatibus consequatur qui. Aut sint accusantium dolorem. Dicta officiis voluptatum repellendus neque earum nihil.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-1c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/PxymVMcW/aa.jpg"
+      },
+      {
+        "id": 70,
+        "category": 0,
+        "title": "Quibusdam reiciendis qui reiciendis atque quo",
+        "description": "Rem accusantium voluptatem ullam nihil consequatur perspiciatis. Omnis qui quod distinctio necessitatibus vero voluptates sed.",
+        "file_url": "https://dl.espressif.com/dl/audio/gs-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/MKN1LHsF/ae.jpg"
+      },
+      {
+        "id": 71,
+        "category": 0,
+        "title": "Veniam soluta aut molestias omnis ut consequa",
+        "description": "Expedita aut cum dolore eligendi. Omnis sit numquam velit dolores. Odio pariatur eligendi est consectetur officiis sunt alias. Natus qui voluptatibus quo ea.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-1c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/PxymVMcW/aa.jpg"
+      },
+      {
+        "id": 72,
+        "category": 1,
+        "title": "Doloremque earum blanditiis nam aut pariatur ",
+        "description": "Reprehenderit et sequi repudiandae placeat voluptatem omnis qui. Voluptatem quia voluptas laudantium esse. Quam numquam asperiores error est et quo.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/Y0SQ5WKJ/ab.jpg"
+      },
+      {
+        "id": 73,
+        "category": 0,
+        "title": "Dolor rerum corporis aspernatur illum.",
+        "description": "Impedit dolor ratione eos aut est nihil odit. Id voluptatibus et dicta dolores voluptatem repellat ut. Quis exercitationem sint non corrupti quis.",
+        "file_url": "https://dl.espressif.com/dl/audio/gs-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/fTJx5mvd/ad.jpg"
+      },
+      {
+        "id": 74,
+        "category": 0,
+        "title": "Minus sit magni ut tempore tenetur rerum odio",
+        "description": "Ab quo autem nam culpa. Et laboriosam sunt vel non dolorem a. Dolor est et repellendus doloribus sequi id. Qui laudantium autem dolor doloribus et voluptate nihil quis.",
+        "file_url": "https://dl.espressif.com/dl/audio/gs-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/MKN1LHsF/ae.jpg"
+      },
+      {
+        "id": 75,
+        "category": 1,
+        "title": "Iste sed non magni laudantium voluptatum volu",
+        "description": "Laborum ut perferendis temporibus animi eos fugit. Sint magnam omnis voluptas aperiam assumenda est id animi. Quidem non at quos voluptate. Labore voluptatum aut est eum.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/Pf6Wm21h/af.jpg"
+      },
+      {
+        "id": 76,
+        "category": 0,
+        "title": "Sed doloribus sunt enim neque.",
+        "description": "Officia itaque consequatur laudantium dolor suscipit aspernatur. Dolores ea iure aut possimus consequuntur aspernatur unde.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/Y0SQ5WKJ/ab.jpg"
+      },
+      {
+        "id": 77,
+        "category": 0,
+        "title": "Debitis vel minima debitis distinctio sed ita",
+        "description": "Dolores tenetur non hic modi. Quod rem tempore enim sint in. Est quia possimus omnis incidunt accusantium. Quia quaerat repellat sit enim vel ullam omnis.",
+        "file_url": "https://dl.espressif.com/dl/audio/gs-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/MKN1LHsF/ae.jpg"
+      },
+      {
+        "id": 78,
+        "category": 0,
+        "title": "Laborum suscipit possimus eveniet nulla.",
+        "description": "Doloremque et reiciendis temporibus ea. Ex corrupti ut maxime ea tempore. Eligendi qui neque laudantium enim nam aperiam corrupti sit. Qui eos impedit voluptatum.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/Pf6Wm21h/af.jpg"
+      },
+      {
+        "id": 79,
+        "category": 0,
+        "title": "Officia optio numquam cupiditate.",
+        "description": "Explicabo assumenda earum sunt saepe autem alias omnis iure. Fuga animi a est recusandae doloribus voluptatibus consequatur qui. Aut sint accusantium dolorem. Dicta officiis voluptatum repellendus neque earum nihil.",
+        "file_url": "https://dl.espressif.com/dl/audio/ff-16b-1c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/PxymVMcW/aa.jpg"
+      },
+      {
+        "id": 80,
+        "category": 0,
+        "title": "Quibusdam reiciendis qui reiciendis atque quo",
+        "description": "Rem accusantium voluptatem ullam nihil consequatur perspiciatis. Omnis qui quod distinctio necessitatibus vero voluptates sed.",
+        "file_url": "https://dl.espressif.com/dl/audio/gs-16b-2c-44100hz.mp3",
+        "image_url": "https://i.postimg.cc/MKN1LHsF/ae.jpg"
+      }
+    ]
+  }
+}

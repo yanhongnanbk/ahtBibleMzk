@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ahtBibleAudio002</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--    Phongnt-->
+    <string name="previous">Previous</string>
+    <string name="playpause">Play / Pause</string>
+    <string name="next">Next</string>
+    <string name="title_download">Download</string>
+    <string name="alarm">Alarm</string>
+    <string name="empty_sub">Not found subtitle</string>
+</resources>
